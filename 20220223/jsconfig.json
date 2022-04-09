@@ -1,0 +1,6 @@
+// 增加此段可幫助開發jquery
+{
+    "typeAcquisition": {
+        "include": ["jquery"]
+    }
+}

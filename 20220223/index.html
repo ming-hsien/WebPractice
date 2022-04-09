@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Random selector</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>?</h1>
+        <input type="button" value="今天晚上吃什麼" id="getfoods">
+        <table>
+            <td>
+            <ul id="options">
+                <!-- <li>拉麵</li>
+                <li>滷肉飯</li>
+                <li>水餃</li> -->
+            </ul></td>
+            <td>
+                <div id="imageHere"></div>
+            </td>
+            <td>
+              <input type='text' id="food_name">
+              <!-- <input type="file" accept=".jpeg,.png" id="food_image"> -->
+              <input type="button" value="新增食物" id='addfoods'>
+              <input type="button" value="刪除食物" id='deletefoods'>
+            </td>
+        </table>
+      <a href="../index.html"target="_self">回首頁</a>
+        
+        <!-- script放在body裡會讓整體載入速度較快,且應放在後方 -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="tools.js"></script>
+        <script src="main.js" async defer></script>
+    </body>
+</html>

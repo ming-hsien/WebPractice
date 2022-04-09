@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+}
+li{
+    text-align: left;
+}
+table{
+    text-align: left;
+    width: 100%;
+    font-size: 1.5em;
+    table-layout:fixed;word-break:break-all;
+}
+td{
+    text-align: left;
+    border: 8px solid gray;
+}
+#imageHere{
+    text-align: center;
+}
