@@ -14,15 +14,25 @@
     </head>
     <body>
         <h1>貓咪打排球</h1>
-        <input type="button" id="start" value="遊戲開始">
-        <input type="range" id="ballspeed" min="1" max="5" value="1">
-            <label for="ballspeed">ballspeed</label>
-            
-        <div>
-            <canvas id="myCanvas" width="1000" height="600"></canvas>
-            <p id="talkBox"></p>
-        </div>
-        <a href="../index.html"target="_self">回首頁</a>
+            <div id="header">
+                <input type="button" id="start" value="遊戲開始">
+                <input type="range" id="ballspeed" min="1" max="5" value="1">
+                <label for="ballspeed">ballspeed</label>
+            </div>
+
+            <div id="sidebar_left">
+
+            </div>
+            <div id="sidebar_right">
+
+            </div>
+            <div id="content">
+                <canvas id="myCanvas" width="1000" height="600"></canvas>
+            </div>
+            <div id="footer">
+                <a href="../index.html"target="_self">回首頁</a>
+            </div>
+        
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <script src="main.js" ></script>
     </body>

@@ -7,9 +7,38 @@ canvas{
     background-image: url('images/b2.png');
 }
 
-#talkbox{
-    height: 20px;
-    color: brown;
-    font-size: 26px;
-    font-weight: bold;
+#header{
+    /* background-color:bisque; */
+    text-align:center;
+    line-height:80px;
+}
+#sidebar_left{
+    /* background-color: bisque; */
+    height: 600px;
+    width: 120px;
+    text-align:center;
+    line-height:400px;
+    float:left;
+}
+#sidebar_right{
+    /* background-color: bisque; */
+    height:600px;
+    width: 120px;
+    text-align:center;
+    line-height:400px;
+    float:right;
+}
+#content{
+    /* background-color: bisque; */
+    margin-left:120px;
+    margin-right:120px;
+    height: 600px;
+    text-align:center;
+    line-height:400px;
+}
+#footer{
+    clear:both;
+    height:80px;
+    text-align:center;
+    line-height:80px;
 }
